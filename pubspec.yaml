@@ -1,0 +1,58 @@
+name: mindspace
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_local_notifications: ^15.0.0
+  timezone: ^0.9.1 
+  permission_handler: ^11.0.0
+  pdfx: ^2.0.0
+  path_provider: ^2.0.11
+  dio: ^5.0.0
+  video_player: ^2.9.2
+  image_picker: ^0.8.7+3
+  file_picker: ^5.2.1
+  supabase_flutter: ^2.8.3
+  intl: ^0.18.0
+
+ 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.10.0
+
+flutter_icons:
+  android: true
+  image_path: "assets/icon.png" 
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/mindspace_logo.png
+    - assets/profile.png
+    - assets/banner1.png
+    - assets/banner2.png
+    - assets/banner3.png
+    - assets/flutter-banner.png
+    - assets/calculus-banner.png
+    - assets/finance-banner.png
+    - assets/health-banner.png
+    - assets/visa_mastercard.png
+    - assets/paypal_logo.png
+    - assets/apple_pay_logo.png
+    - assets/payment_success.png
+    - assets/congrats.png
+    - assets/document.pdf
+    - assets/cert.pdf
+    - assets/ads.mp4
+    - assets/course.mp4
+    - assets/placeholder.png
